@@ -1,0 +1,2 @@
+git remote add origin https://github.com/tedtan123/hw-ruby-intro.git
+git push -u origin master
