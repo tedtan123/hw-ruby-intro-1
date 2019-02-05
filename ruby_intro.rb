@@ -46,8 +46,7 @@ def binary_multiple_of_4? s
     # YOUR CODE HERE
     return false if s.empty?
     num = s.to_i
-    if(/\A[0-1]*\Z/.match(s) == nil) # You can match the beginning of the string with \A and the end with \Z. In ruby ^ and $ match also the beginning and end of the line, respectively: to match the entire string with regex
-        return false
+    if(/\A[0-1]*\Z/.match(s) == nil) 
     elsif num % 4 == 0
         return true
     else return false
